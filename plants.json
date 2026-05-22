@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Rose",
+    "latin": "Rosa sp.",
+    "image": "images/rose.jpg",
+    "bloom": [4, 5, 6, 7, 8],
+    "cut": [2],
+    "erhaltung": {
+      "months": [2],
+      "description": "Mitte März, wenn die Forsythie blüht: auf 15–20 cm zurückschneiden, 3–5 Augen stehen lassen, abgestorbene und schwache Triebe entfernen. Bei dichteren oder älteren Sträuchern zusätzlich überalterte, schwache oder kreuzende Triebe entfernen, um die Rose luftig zu halten."
+    },
+    "erziehung": {
+      "months": [2],
+      "description": "Junge Rosen: 3–5 kräftige Triebe stehen lassen, ältere Triebe bodennah entfernen."
+    },
+    "verjuengung": {
+      "months": [2],
+      "description": "Alte, verwilderte Rosen: Mehrjährige Triebe bodennah entfernen, Neuaustrieb fördern."
+    }
+  },
+  {
+    "name": "Bauernhortensie",
+    "latin": "Hydrangea macrophylla",
+    "image": "images/hortensie.jpg",
+    "bloom": [5, 6, 7, 8],
+    "cut": [1],
+    "erhaltung": {
+      "months": [1],
+      "description": "Februar: Nur alte Blüten oberhalb des ersten intakten Knospenpaars und erfrorene Triebe entfernen. Älteste Triebe auf Bodenhöhe abschneiden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Apfelbaum",
+    "latin": "Malus domestica",
+    "image": "images/apfelbaum.jpg",
+    "bloom": [3, 4],
+    "cut": [1, 2, 7],
+    "erhaltung": {
+      "months": [1, 2, 7],
+      "description": "Februar–März: Wasserreiser entfernen, Fruchtholz auslichten, Kronenmitte freihalten für Licht und Luft. August: Wasserreiser entfernen (optional)."
+    },
+    "erziehung": {
+      "months": [1, 2],
+      "description": "In den ersten 4–5 Jahren Leitäste und Kronengerüst aufbauen, Konkurrenzäste entfernen."
+    },
+    "verjuengung": {
+      "months": [1, 2],
+      "description": "Bei vernachlässigten Bäumen über 2–3 Jahre starke Leitäste zurücknehmen, nie mehr als ein Drittel auf einmal."
+    }
+  },
+  {
+    "name": "Hibiskus",
+    "latin": "Hibiscus syriacus",
+    "image": "images/hibiskus.png",
+    "bloom": [6, 7, 8],
+    "cut": [1],
+    "erhaltung": {
+      "months": [1],
+      "description": "Spätwinter bis Ende Februar: Rückschnitt um 1/3 der Triebe, innenwachsende, tote oder erfrorene Zweige entfernen. Dicke, überalterte Triebe an der Basis entfernen, Kronenbereich auflichten."
+    },
+    "erziehung": {
+      "months": [1, 2],
+      "description": "Beim Pflanzen / erstes Frühjahr: Ausreizen aller schwachen Triebe, 5–7 Bodentriebe fördern, einen Mitteltrieb höher lassen."
+    },
+    "verjuengung": {
+      "months": [1, 2],
+      "description": "Spätwinter / Frühjahr: Radikaler Rückschnitt auf ca. 30–50 cm, auslichten, neue Triebe fördern."
+    }
+  }
+]
