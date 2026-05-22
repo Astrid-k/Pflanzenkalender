@@ -51,6 +51,25 @@
     }
   },
   {
+    "name": "Gemeiner Flieder",
+    "latin": "Syringa vulgaris",
+    "image": "images/flieder.jpg",
+    "bloom": [4, 5],
+    "cut": [5],
+    "erhaltung": {
+      "months": [5],
+      "description": "Direkt nach der Blüte: verblühte Rispen wegschneiden, altes Holz entfernen. Ältere, schwache oder nach innen wachsende Triebe bodennah entfernen. Wichtig: Er blüht am vorjährigen Holz – spätere Schnitte würden die Blütenknospen fürs nächste Jahr entfernen."
+    },
+    "erziehung": {
+      "months": [5],
+      "description": "Jungpflanzen aufbauend schneiden, Konkurrenztriebe entfernen."
+    },
+    "verjuengung": {
+      "months": [5],
+      "description": "Schrittweise über 2–3 Jahre alte Grundtriebe herausnehmen."
+    }
+  },
+  {
     "name": "Hibiskus",
     "latin": "Hibiscus syriacus",
     "image": "images/hibiskus.png",
