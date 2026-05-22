@@ -327,6 +327,12 @@
     border: 1px solid #f8d4b8;
   }
 
+  .month-dot.cut-month.bloom-month {
+    background: var(--green-mid);
+    color: white;
+    border: 2px solid var(--bloom);
+  }
+
   .month-dot.current {
     flex-direction: column;
     align-items: center;
@@ -357,7 +363,7 @@
   }
 
   .card-detail.open {
-    max-height: 400px;
+    max-height: 1200px;
     padding: 12px 14px 16px;
   }
 
@@ -449,6 +455,14 @@
   .pill-erhaltung { background: #e8f0e8; color: var(--green-mid); }
   .pill-erziehung { background: #fef0e8; color: var(--terra); }
   .pill-verjuengung { background: #f4eef4; color: #9b6b9b; }
+
+  .schnitt-skizze {
+    display: block;
+    margin: 8px 0 6px 13px;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid #e8ece4;
+  }
 
   /* HINWEIS */
   .hint {
@@ -542,10 +556,12 @@
       const data = plant[key];
       if (!data) return '';
       const pills = (data.months || []).map(m => `<span class="schnitt-month-pill ${pillClass}">${MONATE[m]}</span>`).join('');
+      const skizze = data.image ? `<img src="${data.image}" alt="Skizze" class="schnitt-skizze">` : '';
       return `
         <div class="schnitt-type">
           <div class="schnitt-label"><span class="schnitt-dot ${dotClass}"></span>${label}</div>
           <div class="schnitt-desc">${data.description || ''}</div>
+          ${skizze}
           <div class="schnitt-months">${pills}</div>
         </div>`;
     }).join('');

@@ -51,10 +51,64 @@
     }
   },
   {
+    "name": "Rhododendron",
+    "latin": "Rhododendron sp.",
+    "image": "images/rhododendron.jpg",
+    "bloom": [3, 4],
+    "cut": [5],
+    "erhaltung": {
+      "months": [5],
+      "description": "Direkt nach der Blüte (Mai–Juni): Verwelkte Blütenstände entfernen, leichte Formkorrektur knapp oberhalb eines Blattpaars schneiden. Später Winter oder Frühjahr: Überalterte Äste ohne Knospen entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [1, 4, 5],
+      "description": "Februar oder spätes Frühjahr (außer Schonzeit): Radikaler Rückschnitt bis 20–50 cm Höhe, mind. eine Knospe je Ast stehen lassen, evtl. über 2 Jahre staffeln."
+    }
+  },
+  {
+    "name": "Sommerflieder",
+    "latin": "Buddleja davidii",
+    "image": "images/sommerflieder.jpeg",
+    "bloom": [6, 7, 8],
+    "cut": [2],
+    "erhaltung": {
+      "months": [2],
+      "description": "Frühjahr (März/April), vor dem Austrieb: alle Triebe kräftig auf 30–50 cm kürzen. Er blüht am diesjährigen Holz – starker Rückschnitt fördert viele neue, blühfreudige Triebe. Schwache oder überalterte Triebe an der Basis entfernen."
+    },
+    "erziehung": {
+      "months": [2],
+      "description": "Nach Pflanzung schwache Triebe einkürzen, kräftige leiten."
+    },
+    "verjuengung": {
+      "months": [2],
+      "description": "Radikalschnitt im Frühjahr möglich, treibt kräftig neu aus."
+    }
+  },
+  {
+    "name": "Forsythie",
+    "latin": "Forsythia sp.",
+    "image": "images/forsythie.jpg",
+    "bloom": [2, 3],
+    "cut": [4],
+    "erhaltung": {
+      "months": [4],
+      "description": "Jedes Jahr nach der Blüte (Mitte–Ende April): Alte, blühfaule Triebe entfernen, leicht einkürzen, nach innen wachsende oder überkreuzende Äste entfernen. Alle 2–3 Jahre zusätzlich Triebe älter als 3 Jahre bodennah entfernen, junge kräftige Triebe stehen lassen."
+    },
+    "erziehung": {
+      "months": [3, 4],
+      "description": "In den ersten 1–3 Jahren nach der Blüte: Schwache und überkreuzende Triebe entfernen, 3–5 Leitäste fördern."
+    },
+    "verjuengung": {
+      "months": [1, 3, 4],
+      "description": "Später Winter oder direkt nach der Blüte: Radikaler Rückschnitt auf den Stock, nur 4–5 kräftige Triebe stehen lassen, Folgejahre regelmäßig weiter pflegen."
+    }
+  },
+  {
     "name": "Gemeiner Flieder",
     "latin": "Syringa vulgaris",
     "image": "images/flieder.jpg",
-    "bloom": [4, 5],
+    "bloom": [4],
     "cut": [5],
     "erhaltung": {
       "months": [5],
@@ -67,6 +121,23 @@
     "verjuengung": {
       "months": [5],
       "description": "Schrittweise über 2–3 Jahre alte Grundtriebe herausnehmen."
+    }
+  },
+  {
+    "name": "Schneeball-Hortensie",
+    "latin": "Hydrangea arborescens",
+    "image": "images/schneeball-hortensie.jpg",
+    "bloom": [5, 6, 7, 8],
+    "cut": [1],
+    "erhaltung": {
+      "months": [1],
+      "image": "images/schneeball-hortensie-schnitt.jpg",
+      "description": "Bis Ende Februar: alle Triebe auf kurze Stummel zurückschneiden oberhalb eines Augenpaars. Dicke, alte oder abgestorbene Triebe boden- oder knospennah entfernen. Bei zu dichten Kronen schwächere oder ungünstig platzierte Triebe und einzelne Zweigbesen ganz entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [1],
+      "description": "Radikaler Rückschnitt bis knapp über dem Boden."
     }
   },
   {
