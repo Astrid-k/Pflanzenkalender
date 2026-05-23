@@ -1,5 +1,176 @@
 [
   {
+    "name": "Thymian",
+    "latin": "Thymus vulgaris",
+    "image": "images/thymian.jpeg",
+    "bloom": [4, 5, 6, 7, 8],
+    "cut": [3, 6, 7, 8],
+    "erhaltung": {
+      "months": [3, 6, 7, 8],
+      "description": "Bester Schnittzeitpunkt: kurz vor der Blüte. Beschädigte und erfrorene Triebe entfernen. Alle Triebe um ⅓–½ kürzen, Zentrum etwas höher lassen für halbkugelige Form. Immer im beblätterten Bereich schneiden. Im Sommer regelmäßig ernten oder nach der Blüte Triebspitzen schneiden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Lenzrose",
+    "latin": "Helleborus orientalis",
+    "image": "images/lenzrose.jpg",
+    "bloom": [11, 0, 1],
+    "cut": [1, 2, 3],
+    "erhaltung": {
+      "months": [1, 2, 3],
+      "description": "Das gelb verfärbte und welke Laub verblühender Lenzrosen kann einfach weggeschnitten werden. Die Pflanze treibt dann im Sommer kräftig neu aus. Wenn neue Blätter im April austreiben, kann das gesamte alte Laub ganz unten abgeschnitten werden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Mönchspfeffer",
+    "latin": "Vitex agnus-castus",
+    "image": "images/moenchspfeffer.jpg",
+    "bloom": [6, 7],
+    "cut": [2, 3],
+    "erhaltung": {
+      "months": [2, 3],
+      "description": "Frühjahr (nach Frost und vor dem Neuaustrieb): Verblühtes abschneiden oder radikaler Rückschnitt auf etwa ⅓ Höhe. Erfrorene Triebe entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Frühjahr: Vergraiste Systeme. Radikaler Rückschnitt auf ca. 20 cm Höhe."
+    }
+  },
+  {
+    "name": "Echtes Salomonsiegel",
+    "latin": "Polygonatum odoratum",
+    "image": "images/echtes-salomonsiegel.jpg",
+    "bloom": [4, 5],
+    "cut": [],
+    "erhaltung": null,
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Kolkwitzie",
+    "latin": "Kolkwitzia amabilis",
+    "image": "images/kolkwitzie.jpg",
+    "bloom": [4, 5],
+    "cut": [6],
+    "erhaltung": {
+      "months": [6],
+      "description": "Nach der Blüte: Verblühte Triebe bis zur nächsten Verzweigung zurückschneiden, blütenbildendes einjähriges Holz fördern, Form erhalten. Zu eng stehende oder sich kreuzende Äste entfernen. Zu stark bogig überhängende Triebe bis zu einem jüngeren Seitentrieb einkürzen. Alle 2–3 Jahre ältere, vergraiste Äste bodennah entfernen. Schnitt im späten Sommer, Herbst oder Winter vermeiden."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [5, 6],
+      "description": "Nur im Ausnahmefall: alle Triebe bis 15 cm über dem Boden abschneiden."
+    }
+  },
+  {
+    "name": "Farn",
+    "latin": "Pteridophyta",
+    "image": "images/farn.jpg",
+    "bloom": [],
+    "cut": [2, 3],
+    "erhaltung": {
+      "months": [2, 3],
+      "description": "Frühling: Abgestorbene Wedel bodennah schneiden. Herbstlaub entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Sonnenhut",
+    "latin": "Echinacea purpurea",
+    "image": "images/sonnenhut.jpg",
+    "bloom": [6, 7, 8],
+    "cut": [2],
+    "erhaltung": {
+      "months": [2],
+      "description": "Im Frühjahr vor dem Neuaustrieb: bodennah abschneiden. Verwelkte Blütenköpfe können jederzeit abgeschnitten werden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Berg-Flockenblume",
+    "latin": "Centaurea montana",
+    "image": "images/berg-flockenblume.jpg",
+    "bloom": [4, 5, 6],
+    "cut": [6],
+    "erhaltung": {
+      "months": [6],
+      "description": "Nach der Blüte: Stängel auf ca. 10 cm bodennah zurückschneiden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Lavendel",
+    "latin": "Lavandula angustifolia",
+    "image": "images/lavendel.jpg",
+    "bloom": [6, 7],
+    "cut": [2, 3, 6, 7],
+    "erhaltung": {
+      "months": [2, 3, 6, 7],
+      "description": "Spätwinter bis früher Frühling (Ende Februar–Mitte März): Lavendel schneiden, wenn kein strenger Frost mehr droht und vor dem Neuaustrieb. Max. zwei Drittel kürzen, nicht ins alte Holz schneiden, verholzte oder vertrocknete Teile entfernen. Zweiter Schnitt im Sommer kurz vor dem Verblühen: etwa ein Drittel der langen Blütenstiele entfernen, grüne Blätter und junge Triebe stehen lassen. Verholzung vermeiden, alte verholzte Triebe vorsichtig entfernen."
+    },
+    "erziehung": {
+      "months": [1, 2, 3],
+      "description": "Frühling: Kompakten, buschigen Wuchs fördern. Starker Schnitt im Frühjahr – sorgfältig bleiben, nicht zu tief in Altholz schneiden."
+    },
+    "verjuengung": {
+      "months": [1, 2, 3],
+      "description": "Frühjahr: Alte, vergreiste Pflanzen. Radikaler Rückschnitt nur bis Grünanteile, nicht ins alte Holz."
+    }
+  },
+  {
+    "name": "Schneeball",
+    "latin": "Viburnum opulus",
+    "image": "images/schneeball.jpg",
+    "bloom": [4],
+    "cut": [2, 5],
+    "erhaltung": {
+      "months": [2, 5],
+      "description": "März (alte Triebe): Alte Triebe bodennah entfernen. Nach der Blüte (Juni): Ein Drittel der alten, blühenden Triebe komplett an der Basis herausschneiden, um Platz für neue Jungtriebe zu schaffen. Kronenauslichtung, junge Neutriebe fördern."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [5],
+      "description": "Im Juni: Auf den Stock setzen bis ca. 30 cm, einige Neutriebe mit ≥3 Augen stehen lassen, ggf. mulchen & düngen."
+    }
+  },
+  {
+    "name": "Pfingstrose",
+    "latin": "Paeonia lactiflora",
+    "image": "images/pfingstrose.jpg",
+    "bloom": [4, 5],
+    "cut": [6, 7, 2, 3],
+    "erhaltung": {
+      "months": [6, 7, 2, 3],
+      "description": "Sommer nach der Blüte: Vertrocknete Blüten oberhalb eines gut entwickelten Blattpaares abschneiden. Frühling: Übrig gebliebene Stängel auf Bodenhöhe abschneiden – sie sind ein natürlicher Frostschutz im Winter."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Storchschnabel",
+    "latin": "Geranium sp.",
+    "image": "images/storchschnabel.jpg",
+    "bloom": [4, 5],
+    "cut": [9, 10],
+    "erhaltung": {
+      "months": [9, 10],
+      "description": "Frühjahrsputz: Abgestorbene Triebe bodennah schneiden. Verwelktes Laub entfernen, wenn es im Spätherbst komplett abstirbt. Verwelkte oder holzige Triebe aus der Mitte entfernen, um Luftigkeit und Gesundheit zu verbessern."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [9, 10],
+      "description": "Alt gewordene oder starke Ausläufer im Herbst auf 5–10 cm zurückschneiden."
+    }
+  },
+  {
     "name": "Rose",
     "latin": "Rosa sp.",
     "image": "images/rose.jpg",
@@ -21,7 +192,7 @@
   {
     "name": "Bauernhortensie",
     "latin": "Hydrangea macrophylla",
-    "image": "images/hortensie.jpg",
+    "image": "images/bauernhortensie.jpg",
     "bloom": [5, 6, 7, 8],
     "cut": [1],
     "erhaltung": {
