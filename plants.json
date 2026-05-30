@@ -1,5 +1,382 @@
 [
   {
+    "name": "Winter-Schneeball",
+    "latin": "Viburnum bodnantense",
+    "image": "images/winter-schneeball.jpg",
+    "bloom": [10, 11, 0, 1, 2],
+    "cut": [2],
+    "erhaltung": {
+      "months": [2],
+      "description": "Nach der Blüte: Verblühte Triebe einkürzen, altes Holz auslichten, auf lockeren Aufbau achten. Licht und Luft fördern, Verkahlung verhindern, ältere oder sich kreuzende Äste bodennah entfernen, junge Triebe fördern."
+    },
+    "erziehung": {
+      "months": [2],
+      "description": "Nach der Pflanzung: Schwache oder sich kreuzende Triebe entfernen, Leittriebe leicht einkürzen, stabilen aufrechten Aufbau fördern."
+    },
+    "verjuengung": {
+      "months": [2],
+      "description": "Nach der Blüte (alle 4–5 Jahre): Ein Drittel der ältesten Triebe an der Basis entfernen, Nachwuchs fördern."
+    }
+  },
+  {
+    "name": "Deutzie",
+    "latin": "Deutzia sp.",
+    "image": "images/deutzie.jpg",
+    "bloom": [4, 5, 6],
+    "cut": [5, 6],
+    "erhaltung": {
+      "months": [5, 6],
+      "description": "Direkt nach der Blüte (Juni/Juli): Verblühte Triebe um ein Drittel bis zur Hälfte einkürzen, direkt oberhalb einer Verzweigung. Ältere Triebe bevorzugt entfernen, da die Deutzie am vorjährigen Holz blüht. Kein Schnitt im Herbst oder Frühjahr vor der Blüte."
+    },
+    "erziehung": {
+      "months": [5, 6],
+      "description": "In den ersten 2–3 Jahren nach der Blüte: Gleichmäßiges Gerüst aufbauen, zu lange oder kreuzende Triebe einkürzen, schwache oder einwärts wachsende Äste entfernen."
+    },
+    "verjuengung": {
+      "months": [5, 6],
+      "description": "Alle 5–8 Jahre nach der Blüte: Ein Drittel der ältesten Grundtriebe bodennah entfernen. Alternativ radikaler Rückschnitt auf ca. 30–40 cm – blüht danach erst im übernächsten Jahr wieder."
+    }
+  },
+  {
+    "name": "Gelbrote Taglilie",
+    "latin": "Hemerocallis fulva",
+    "image": "images/gelbrote-taglilie.jpg",
+    "bloom": [5, 6, 7],
+    "cut": [9, 10],
+    "erhaltung": {
+      "months": [9, 10],
+      "description": "Verblühte Stängel direkt nach der Blüte bodennah abschneiden. Im Herbst das gesamte Laub auf ca. 5–10 cm zurückschneiden, sobald es vergilbt. Alternativ Rückschnitt im frühen Frühjahr vor dem Neuaustrieb möglich."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3, 9, 10],
+      "description": "Alle 4–5 Jahre im Frühjahr oder Herbst: Horst ausgraben und teilen. Äußere, kräftige Teile wieder einpflanzen, den vergreisten Mittelteil entsorgen."
+    }
+  },
+  {
+    "name": "Glockenblume",
+    "latin": "Campanula sp.",
+    "image": "images/glockenblume.jpg",
+    "bloom": [4, 5, 6, 7, 8],
+    "cut": [5, 6, 2],
+    "erhaltung": {
+      "months": [5, 6, 2],
+      "description": "Verblühte Stände direkt unter der Blüte abschneiden – verhindert Samenbildung und fördert Nachblüte. Bei mehrjährigen Stauden nach der ersten Blüte auf ca. eine Handbreit über dem Boden zurückschneiden, um eine zweite Blüte anzuregen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2],
+      "description": "Mehrjährige Stauden im Frühjahr knapp über dem Boden zurückschneiden. Bei Bedarf alle 3–4 Jahre durch Teilung verjüngen."
+    }
+  },
+  {
+    "name": "Zaubernuss",
+    "latin": "Hamamelis sp.",
+    "image": "images/zaubernuss.jpg",
+    "bloom": [0, 1, 2],
+    "cut": [2, 3],
+    "erhaltung": {
+      "months": [2, 3],
+      "description": "Sehr sparsam direkt nach der Blüte (März/April): Nur abgestorbene, kranke oder erfrorene Äste entfernen. Schnitt ca. 1 cm über auswärts zeigenden Knospen. Bei veredelten Sorten: Wildtriebe unterhalb der Veredelungsstelle sofort entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Filziges Hornkraut",
+    "latin": "Cerastium tomentosum",
+    "image": "images/filziges-hornkraut.jpg",
+    "bloom": [4, 5],
+    "cut": [2, 5, 6],
+    "erhaltung": {
+      "months": [2, 5, 6],
+      "description": "Ende März: Abgestorbene Triebe und Winterschäden entfernen. Nach der Blüte (Juni/Juli): Verblühte Stände abschneiden und die gesamte Matte kräftig auf ca. 5–8 cm zurückschneiden – verhindert kahle Mitte und hält den Bestand dicht und kompakt."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Salbei",
+    "latin": "Salvia officinalis",
+    "image": "images/salbei.jpg",
+    "bloom": [5, 6],
+    "cut": [2, 3, 7, 8],
+    "erhaltung": {
+      "months": [2, 3, 7, 8],
+      "description": "Im Frühjahr vor dem Austrieb: Alle Triebe um ca. ⅓ zurückschneiden, nicht ins alte Holz. Nach der Blüte (Juli/August): Verblühte Triebe entfernen – hält die Pflanze kompakt und regt zweiten Austrieb an."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Alle 3–5 Jahre im Februar/März: Stärker zurückschneiden bis ins halbverholzte Holz, nie komplett ins alte Holz. Bei zu stark vergreisten Pflanzen besser ersetzen."
+    }
+  },
+  {
+    "name": "Bodendecker-Thymian",
+    "latin": "Thymus serpyllum",
+    "image": "images/bodendecker-thymian.jpg",
+    "bloom": [5, 6, 7],
+    "cut": [7, 8],
+    "erhaltung": {
+      "months": [7, 8],
+      "description": "Nach der Blüte (August/September): Verblühte Triebe gleichmäßig um ca. ⅓ zurückschneiden. Kompaktiert das Polster und verhindert Verkahlungen. Immer im beblätterten Bereich schneiden, nicht ins alte Holz."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Im März bei Verkahlungen: Kahle Mitte und verholzte Triebe ausschneiden, junge Randbereiche einkürzen. Bei stark verkahlten Pflanzen besser teilen oder ersetzen."
+    }
+  },
+  {
+    "name": "Oregano",
+    "latin": "Origanum vulgare",
+    "image": "images/oregano.jpg",
+    "bloom": [6, 7, 8],
+    "cut": [2, 3, 9, 10],
+    "erhaltung": {
+      "months": [2, 3, 9, 10],
+      "description": "Im Frühjahr: Alle vorjährigen Stängel bodennah abschneiden – treibt aus dem Wurzelstock neu aus. Nach der Blüte oder im Herbst: Verblühte Stängel kürzen oder komplett zurückschneiden für dichten Neuaustrieb."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Alle 3–4 Jahre im März: Gesamte oberirdische Masse bodennah abschneiden. Oregano verträgt das gut, da er aus dem Wurzelstock austreibt. Danach kräftig wässern und düngen."
+    }
+  },
+  {
+    "name": "Stockrose",
+    "latin": "Alcea rosea",
+    "image": "images/stockrose.jpg",
+    "bloom": [5, 6, 7, 8],
+    "cut": [1, 2, 10, 11],
+    "erhaltung": {
+      "months": [1, 2, 10, 11],
+      "description": "Verblühte Stängel im Herbst oder zeitigen Frühjahr bodennah abschneiden. Zweijährige Arten nach der Samenreife erst stehen lassen, wenn Selbstaussaat erwünscht. Junge Blattrosetten der Folgegeneration über Winter stehen lassen. Bei Malvenkrankheit befallene Blätter sofort entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Kleines Immergrün",
+    "latin": "Vinca minor",
+    "image": "images/kleines-immergruen.jpg",
+    "bloom": [3, 4],
+    "cut": [4, 5, 1, 2],
+    "erhaltung": {
+      "months": [4, 5, 1, 2],
+      "description": "Nach der Hauptblüte (Mai/Juni) oder im zeitigen Frühjahr: Triebe um ⅓ bis zur Hälfte einkürzen. Verhindert verkahlende Triebbasen und fördert dichten Bodendecker-Wuchs. Mit der Heckenschere flächig auf ca. 5–8 cm Höhe zurückschneiden möglich."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [1, 2],
+      "description": "Alle 3–5 Jahre bei stark verholzten, kahlen Trieben im zeitigen Frühjahr: Radikal auf ca. 5 cm zurückschneiden. Pflanze treibt zuverlässig neu aus."
+    }
+  },
+  {
+    "name": "Echtes Johanniskraut",
+    "latin": "Hypericum perforatum",
+    "image": "images/echtes-johanniskraut.jpeg",
+    "bloom": [5, 6, 7],
+    "cut": [1, 2, 10, 11],
+    "erhaltung": {
+      "months": [1, 2, 10, 11],
+      "description": "Im Spätherbst oder zeitigen Frühjahr: Alle Triebe auf ca. 10–15 cm über dem Boden zurückschneiden. Verhindert Verholzung und hält die Pflanze kompakt und blühfreudig. Verblühte Triebe können direkt nach der Blüte gestutzt werden, um Selbstaussaat zu begrenzen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [1, 2],
+      "description": "Alle 2–3 Jahre im zeitigen Frühjahr: Alle Triebe auf 5–10 cm bodennah einkürzen. Verhindert Vergreisung der Basis, Pflanze treibt kräftig neu aus."
+    }
+  },
+  {
+    "name": "Purpur Glöckchen",
+    "latin": "Aquilegia vulgaris",
+    "image": "images/purpurgloeckchen.jpg",
+    "bloom": [4, 5, 6],
+    "cut": [2, 3],
+    "erhaltung": {
+      "months": [2, 3],
+      "description": "Frühjahr: Vertrocknete Blätter und Blütenstiele bodennah entfernen. Altes Laub dient im Winter als Frostschutz – Rückschnitt erst im Frühjahr. Alte, beschädigte Blätter gezielt entfernen, Luft an die Basis bringen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Alle 3–4 Jahre im Frühjahr: Pflanze ausgraben, teilen, neu pflanzen."
+    }
+  },
+  {
+    "name": "Prächtige Fetthenne",
+    "latin": "Hylotelephium spectabile",
+    "image": "images/fetthenne.jpg",
+    "bloom": [7, 8, 9],
+    "cut": [2, 3],
+    "erhaltung": {
+      "months": [2, 3],
+      "description": "Alte, vertrocknete Blütenstände und Stängel bodennah abschneiden, Neuaustrieb fördern. Bei sehr dichten Horsten: Schwache oder beschädigte Triebe entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [2, 3],
+      "description": "Alle 4–5 Jahre im Frühjahr: Pflanze ausgraben, teilen, neu einsetzen."
+    }
+  },
+  {
+    "name": "Rosmarin",
+    "latin": "Salvia rosmarinus",
+    "image": "images/rosmarin.jpg",
+    "bloom": [2, 3, 4],
+    "cut": [4, 5],
+    "erhaltung": {
+      "months": [4, 5],
+      "description": "Frühjahr nach Frostende oder nach der Blüte: Alle Triebe um etwa ⅓ kürzen, nur im grünen, beblätterten Bereich schneiden. Kein radikaler Rückschnitt ins alte Holz – Rosmarin treibt dort schlecht oder gar nicht aus. Schwache, abgestorbene Triebe entfernen."
+    },
+    "erziehung": {
+      "months": [4, 5],
+      "description": "Erstes Standjahr, im Frühjahr: Triebspitzen leicht einkürzen, um Verzweigung anzuregen."
+    },
+    "verjuengung": null
+  },
+  {
+    "name": "Geflecktes Lungenkraut",
+    "latin": "Pulmonaria officinalis",
+    "image": "images/geflecktes_lungenkraut.jpg",
+    "bloom": [2, 3, 4],
+    "cut": [5],
+    "erhaltung": {
+      "months": [5],
+      "description": "Direkt nach der Blüte: Altes, oft fleckiges oder krankes Laub bodennah entfernen. Nach Bedarf zu dicht stehende Pflanzenteile entfernen."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [5],
+      "description": "Alle paar Jahre nach der Blüte: Pflanze ausgraben, teilen, neu pflanzen."
+    }
+  },
+  {
+    "name": "Common Pearlbrush",
+    "latin": "Exochorda racemosa",
+    "image": "images/common-pearlbrush.jpg",
+    "bloom": [3, 4],
+    "cut": [5],
+    "erhaltung": {
+      "months": [5],
+      "description": "Direkt nach der Blüte: Verblühte Äste zurücknehmen, auf lose Form achten. Alte, schwache oder quer wachsende Äste bodennah entfernen."
+    },
+    "erziehung": {
+      "months": [5],
+      "description": "Direkt nach dem Pflanzen: Schwache Triebe entfernen, Haupttriebe leicht einkürzen."
+    },
+    "verjuengung": {
+      "months": [5],
+      "description": "Nach der Blüte: Größere Altäste entfernen, verbleibende Triebe verjüngen."
+    }
+  },
+  {
+    "name": "Magnolie",
+    "latin": "Magnolia sp.",
+    "image": "images/magnolie.jpg",
+    "bloom": [2, 3],
+    "cut": [7],
+    "erhaltung": {
+      "months": [7],
+      "description": "Spätsommer: nur bei Bedarf schneiden, Auslagen entfernen, Schnitt möglichst gering halten. Äste bodennah entfernen, nicht stark zurückschneiden."
+    },
+    "erziehung": {
+      "months": [2, 3],
+      "description": "Frühjahr nach der Pflanzung: Haupttriebe um ⅓–½ kürzen, Seitenzweige leicht einkürzen."
+    },
+    "verjuengung": {
+      "months": [7],
+      "description": "Selten, nur bei sehr altem Holz: nur sehr vorsichtig, starke Rückschnitte vermeiden, da Magnolien schlecht austreiben."
+    }
+  },
+  {
+    "name": "Himbeeren",
+    "latin": "Rubus idaeus",
+    "image": "images/himbeeren.jpg",
+    "bloom": [],
+    "cut": [9, 10],
+    "erhaltung": {
+      "months": [9, 10],
+      "description": "Im Herbst alle Triebe bodennah abschneiden."
+    },
+    "erziehung": null,
+    "verjuengung": null
+  },
+  {
+    "name": "Stachelbeere",
+    "latin": "Ribes uva-crispa",
+    "image": "images/stachelbeeren.jpg",
+    "bloom": [5, 6, 7],
+    "cut": [2, 8],
+    "erhaltung": {
+      "months": [2, 8],
+      "description": "Frühjahr (Feb–März) oder nach Ernte im Sommer: Alte Triebe (4–5 Jahre) bodennah entfernen, dichte/innen wachsende Triebe auslichten. Nach der Ernte oder im Frühjahr: Äste mit wenig Frucht, nach innen oder bodennah wachsende Zweige entfernen."
+    },
+    "erziehung": {
+      "months": [2],
+      "description": "Frühjahr nach Pflanzung: 4–6 kräftige Triebe belassen, restliche Bodentriebe entfernen, verbleibende um ⅓ kürzen."
+    },
+    "verjuengung": {
+      "months": [2],
+      "description": "Frühjahr oder Spätwinter bei starker Vergreisung: Nur wenige junge Bodentriebe stehen lassen, alte Gerüsttriebe bodennah entfernen."
+    }
+  },
+  {
+    "name": "Frauenmantel",
+    "latin": "Alchemilla mollis",
+    "image": "images/frauenmantel.jpg",
+    "bloom": [4, 5, 6],
+    "cut": [7, 8],
+    "erhaltung": {
+      "months": [7, 8],
+      "description": "Direkt nach der Blüte: Verblühte Blütenstände bodennah oder knapp über der Blattkrone entfernen. Dicke, verholzte oder innen wachsende Triebe bodennah entfernen."
+    },
+    "erziehung": {
+      "months": [7, 8],
+      "description": "Im ersten Jahr nach Pflanzung: Schwache Triebe entfernen, Haupttrieb leicht einkürzen, dichte Neubildung fördern."
+    },
+    "verjuengung": {
+      "months": [7, 8],
+      "description": "Alle paar Jahre bei Bedarf: Radikaler Rückschnitt auf ca. 5–10 cm Höhe, Staude treibt kräftig neu aus."
+    }
+  },
+  {
+    "name": "Frühlings-Nabelnüsschen",
+    "latin": "Omphalodes verna",
+    "image": "images/fruehlings-nabelnuesschen.jpg",
+    "bloom": [2, 3],
+    "cut": [3, 4],
+    "erhaltung": {
+      "months": [3, 4],
+      "description": "Nach der Blüte: Verblühte Stängel und unschöne Triebe bodennah abschneiden. Ausbreitung kontrollieren, Verkahlung vermeiden, zu dicht stehende oder alte Pflanzenteile auslichten."
+    },
+    "erziehung": null,
+    "verjuengung": {
+      "months": [3, 4],
+      "description": "Frühjahr oder Herbst: Pflanzen ausgraben, teilen, neu einsetzen."
+    }
+  },
+  {
+    "name": "Mandelbäumchen (Hochstamm)",
+    "latin": "Prunus triloba",
+    "image": "images/mandelbaeumchen.jpg",
+    "bloom": [3],
+    "cut": [4, 5, 7],
+    "erhaltung": {
+      "months": [4, 5, 7],
+      "description": "Direkt nach der Blüte: Alle abgeblühten Triebe um ca. ⅔ kürzen, nur kräftige, gut platzierte Jungtriebe stehen lassen. Dicht gewachsene Kronen nach innen oder sich kreuzende Äste entfernen, Wasserschosse am Stamm regelmäßig kappen."
+    },
+    "erziehung": {
+      "months": [4, 5],
+      "description": "Im ersten oder zweiten Jahr: 3–5 kräftige Kronentriebe auswählen, nach außen gerichtet, schwache oder steil wachsende Äste entfernen."
+    },
+    "verjuengung": {
+      "months": [1, 4, 5],
+      "description": "Spätwinter (frostfrei) oder nach der Blüte: Alte Kronenäste auf jüngere Seitentriebe ableiten, Stamm unberührt lassen."
+    }
+  },
+  {
     "name": "Thymian",
     "latin": "Thymus vulgaris",
     "image": "images/thymian.jpeg",
