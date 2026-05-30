@@ -556,7 +556,7 @@
       const data = plant[key];
       if (!data) return '';
       const pills = (data.months || []).map(m => `<span class="schnitt-month-pill ${pillClass}">${MONATE[m]}</span>`).join('');
-      const skizze = data.image ? `<img src="${data.image}" alt="Skizze" class="schnitt-skizze">` : '';
+      const skizze = data.image ? `<img src="${data.image}" alt="Skizze" class="schnitt-skizze" loading="lazy">` : '';
       return `
         <div class="schnitt-type">
           <div class="schnitt-label"><span class="schnitt-dot ${dotClass}"></span>${label}</div>
@@ -568,7 +568,7 @@
 
     // image or placeholder
     const photoContent = plant.image
-      ? `<img src="${plant.image}" alt="${plant.name}">`
+      ? `<img src="${plant.image}" alt="${plant.name}" loading="lazy">`
       : `<span class="emoji-placeholder">🌿</span>`;
 
     return `
