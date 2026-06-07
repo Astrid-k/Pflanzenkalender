@@ -104,6 +104,14 @@
     text-transform: uppercase;
   }
 
+  .cut-count {
+    margin-top: 10px;
+    font-size: 0.72rem;
+    font-weight: 400;
+    color: var(--green-light);
+    letter-spacing: 0.04em;
+  }
+
   .today-dot {
     display: inline-block;
     width: 5px;
@@ -499,7 +507,6 @@
 
 <header>
   <h1>Schnittkalender</h1>
-  <p>Mein Garten</p>
   <div class="month-nav">
     <button class="month-nav-btn" id="btn-prev" aria-label="Vorheriger Monat">
       <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
@@ -509,6 +516,7 @@
       <svg viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
     </button>
   </div>
+  <div class="cut-count" id="cut-count"></div>
 </header>
 
 <div class="plant-grid" id="plant-grid"></div>
@@ -602,6 +610,10 @@
     const label = document.getElementById('month-label');
     const isHeute = aktiverMonat === heute.getMonth();
     label.innerHTML = MONATE[aktiverMonat] + (isHeute ? '<span class="today-dot"></span>' : '');
+    const cards = document.querySelectorAll('.plant-card');
+    const count = Array.from(cards).filter(c => JSON.parse(c.dataset.cut || '[]').includes(aktiverMonat)).length;
+    const cutCountEl = document.getElementById('cut-count');
+    cutCountEl.textContent = count > 0 ? count + ' ' + (count === 1 ? 'Pflanze schneiden' : 'Pflanzen schneiden') : '';
   }
 
   function updateKarten() {
